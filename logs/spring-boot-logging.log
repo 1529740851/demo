@@ -1,0 +1,130 @@
+2018-02-16 16:46:48.683  INFO 28556 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on LAPTOP-B6IHFTQQ with PID 28556 (started by admin in E:\业余学习\demo)
+2018-02-16 16:46:48.686  INFO 28556 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-02-16 16:46:51.211  INFO 28556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-16 16:46:51.214  INFO 28556 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-02-16 16:46:51.681  INFO 28556 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-02-16 16:46:51.692  INFO 28556 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-16 16:46:55.449  INFO 28556 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 7.257 seconds (JVM running for 7.856)
+2018-02-16 16:47:00.679  INFO 28556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-16 16:48:05.045  INFO 22780 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on LAPTOP-B6IHFTQQ with PID 22780 (started by admin in E:\业余学习\demo)
+2018-02-16 16:48:05.048  INFO 22780 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-02-16 16:48:07.222  INFO 22780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-16 16:48:07.224  INFO 22780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-02-16 16:48:07.625  INFO 22780 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-02-16 16:48:07.630  INFO 22780 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-16 16:48:10.554  INFO 22780 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.901 seconds (JVM running for 6.476)
+2018-02-16 16:48:33.161  INFO 22780 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-16 16:50:33.022  INFO 27608 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on LAPTOP-B6IHFTQQ with PID 27608 (started by admin in E:\业余学习\demo)
+2018-02-16 16:50:33.026  INFO 27608 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-02-16 16:50:35.583  INFO 27608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-16 16:50:35.585  INFO 27608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-02-16 16:50:36.263  INFO 27608 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-02-16 16:50:36.272  INFO 27608 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-16 16:50:39.481  INFO 27608 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.898 seconds (JVM running for 7.555)
+2018-02-16 16:50:56.463  INFO 27608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-16 16:50:56.908 DEBUG 27608 --- [http-nio-8080-exec-1] com.example.demo.Dao.IiMapper.Select     : ==>  Preparing: select * from ii 
+2018-02-16 16:50:56.939 DEBUG 27608 --- [http-nio-8080-exec-1] com.example.demo.Dao.IiMapper.Select     : ==> Parameters: 
+2018-02-16 16:50:56.953 DEBUG 27608 --- [http-nio-8080-exec-1] com.example.demo.Dao.IiMapper.Select     : <==      Total: 3
+2018-02-16 16:50:56.957 DEBUG 27608 --- [http-nio-8080-exec-1] com.example.demo.Dao.I2Mapper.select2    : ==>  Preparing: select * from ii where id1=? 
+2018-02-16 16:50:56.957 DEBUG 27608 --- [http-nio-8080-exec-1] com.example.demo.Dao.I2Mapper.select2    : ==> Parameters: 12(String)
+2018-02-16 16:50:56.958 DEBUG 27608 --- [http-nio-8080-exec-1] com.example.demo.Dao.I2Mapper.select2    : <==      Total: 0
+2018-02-16 16:51:48.786 DEBUG 27608 --- [http-nio-8080-exec-2] com.example.demo.Dao.IiMapper.Select     : ==>  Preparing: select * from ii 
+2018-02-16 16:51:48.786 DEBUG 27608 --- [http-nio-8080-exec-2] com.example.demo.Dao.IiMapper.Select     : ==> Parameters: 
+2018-02-16 16:51:48.789 DEBUG 27608 --- [http-nio-8080-exec-2] com.example.demo.Dao.IiMapper.Select     : <==      Total: 3
+2018-02-16 16:51:48.790 DEBUG 27608 --- [http-nio-8080-exec-2] com.example.demo.Dao.I2Mapper.select2    : ==>  Preparing: select * from ii where id1=? 
+2018-02-16 16:51:48.791 DEBUG 27608 --- [http-nio-8080-exec-2] com.example.demo.Dao.I2Mapper.select2    : ==> Parameters: 12(String)
+2018-02-16 16:51:48.792 DEBUG 27608 --- [http-nio-8080-exec-2] com.example.demo.Dao.I2Mapper.select2    : <==      Total: 0
+2018-02-16 16:52:44.197  INFO 27920 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on LAPTOP-B6IHFTQQ with PID 27920 (started by admin in E:\业余学习\demo)
+2018-02-16 16:52:44.201  INFO 27920 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-02-16 16:52:46.468  INFO 27920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-16 16:52:46.469  INFO 27920 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-02-16 16:52:46.925  INFO 27920 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-02-16 16:52:46.933  INFO 27920 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-16 16:52:49.641 ERROR 27920 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_80]
+	at sun.nio.ch.Net.bind(Net.java:463) ~[na:1.7.0_80]
+	at sun.nio.ch.Net.bind(Net.java:455) ~[na:1.7.0_80]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.7.0_80]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_80]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:18) [classes/:na]
+
+2018-02-16 16:52:49.643 ERROR 27920 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.4.RELEASE.jar:1.5.4.RELEASE]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:18) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.7.0_80]
+	at sun.nio.ch.Net.bind(Net.java:463) ~[na:1.7.0_80]
+	at sun.nio.ch.Net.bind(Net.java:455) ~[na:1.7.0_80]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.7.0_80]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.7.0_80]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.15.jar:8.5.15]
+	... 14 common frames omitted
+
+2018-02-16 16:52:49.672  INFO 27920 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-16 16:52:49.699 ERROR 27920 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-02-16 16:53:00.174  INFO 23060 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on LAPTOP-B6IHFTQQ with PID 23060 (started by admin in E:\业余学习\demo)
+2018-02-16 16:53:00.186  INFO 23060 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-02-16 16:53:03.498  INFO 6472 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication on LAPTOP-B6IHFTQQ with PID 6472 (started by admin in E:\业余学习\demo)
+2018-02-16 16:53:03.501  INFO 6472 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2018-02-16 16:53:05.662  INFO 6472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-16 16:53:05.665  INFO 6472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2018-02-16 16:53:06.114  INFO 6472 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-02-16 16:53:06.121  INFO 6472 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-16 16:53:09.138  INFO 6472 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.013 seconds (JVM running for 6.577)
+2018-02-16 16:53:11.141  INFO 6472 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-16 16:53:11.651 DEBUG 6472 --- [http-nio-8080-exec-1] com.example.demo.Dao.IiMapper.Select     : ==>  Preparing: select * from ii 
+2018-02-16 16:53:11.687 DEBUG 6472 --- [http-nio-8080-exec-1] com.example.demo.Dao.IiMapper.Select     : ==> Parameters: 
+2018-02-16 16:53:11.702 DEBUG 6472 --- [http-nio-8080-exec-1] com.example.demo.Dao.IiMapper.Select     : <==      Total: 3

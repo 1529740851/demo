@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+  <script  src="http://code.jquery.com/jquery-1.8.0.min.js">//引入jquery框架
+  </script>
+  <script type="text/javascript">
+  $(function(){
+	  ii();
+	
+	  
+  })
+  function ii(){
+
+	/*  $.post("ni/o",function(data){
+		
+			$.each(data,function(i,e){
+			
+			$("[id=xx]").append("<tr><td>"+data[i].id1+"</td><td>"+data[i].id2+"</td><td>"+data[i].id3+"</td></tr>");	
+			})
+		})*/
+  }
+
+
+  </script>
+<body>
+ 
+<table>
+
+<tr>
+<td>id1</td>
+<td>id2</td>
+<td>id3</td>
+</tr>
+
+ <tr th:each="product:${Ii}">
+　　　　　<td th:text="${product.id1}"></td>
+        <td th:text="${product.id1}"></td>
+        <td th:text="${product.id3}"></td>  
+        <td><a th:href="@{delete?(id=${product.id1})}">删除</a></td>
+ </tr>
+<tbody id="xx">
+</tbody>
+
+</table>
+
+<form action="insert" method="post">
+<table>
+<tr>
+<td>id1</td>
+<td><input name="id1"  type="text"/></td>
+<td>id2</td>
+<td><input name="id2" type="text"/></td>
+<td>id3</td>
+<td><input name="id3" type="text"/></td>
+<td><button type="submit">提交</button></td>
+</tr>
+</table>
+</form>
+<select id="xx1">
+</select>
+<a href="ni/qrcode?xiaoqu=阳春花园">生成二维码</a>
+<!--  
+<div class="box">
+            <button class="createCode" onclick="i()">生成二维码</button>
+			<button class="download"   onclick="x()">下载图片</button>
+            </div>
+            <div id="myQrCode"></div>
+           <a id="download" download="qrcode.jpg"></a>
+			<script src="http://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+            <script src="http://cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+            <script src="http://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+            <script type="text/javascript">
+			function i(){
+			 $('canvas').remove();
+			 $("#myQrCode").qrcode({
+				  render: 'canvas',
+		    width: 120, //宽度 
+		    height:120, //高度 
+		    text: "http://jetienne.com111111111111111111111111111111" //任意内容 
+		     }); 
+           
+			}
+			function x(){
+	      var canvas = $('#myQrCode').find("canvas").get(0);  
+          var url = canvas.toDataURL('image/jpeg');  
+		  alert(url);
+         $("#download").attr('href', url).get(0).click();  
+         return false; 
+			}
+            </script>      -->  
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8"/>
+<title>Insert title here</title>
+
+</head>
+  <script  src="http://code.jquery.com/jquery-1.8.0.min.js">//引入jquery框架
+  </script>
+  <script type="text/javascript">
+  $(function(){
+	  ii();
+	
+	  
+  })
+  function ii(){
+	  $.post("ni/o",function(data){
+		
+			$.each(data,function(i,e){
+			
+			$("[id=xx]").append("<tr><td>"+data[i].id1+"</td><td>"+data[i].id2+"</td><td>"+data[i].id3+"</td></tr>");	
+			})
+		})
+  }
+
+
+  </script>
+<body>
+
+<table>
+
+<tr>
+<td>id1</td>
+<td>id2</td>
+<td>id3</td>
+</tr>
+<tbody id="xx">
+</tbody>
+
+</table>
+
+<form action="ni/insert" method="post">
+<table>
+<tr>
+<td>id11</td>
+<td><input name="id1"  type="text"></td>
+<td>id2</td>
+<td><input name="id2" type="text"></td>
+<td>id3</td>
+<td><input name="id3" type="text"></td>
+<td>提交</td>
+<td><button type="submit">提交</button></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
