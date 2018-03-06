@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
 @EnableTransactionManagement //启用事物
-@ComponentScan("/com.example.demo")//设置扫描包路径
+//@ComponentScan("/com.example.demo")//设置扫描包路径
 //@EntityScan("")  //设置实体类路径
 @EnableScheduling  //启用定时器
 
